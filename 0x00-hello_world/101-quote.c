@@ -5,11 +5,10 @@
  *
  * Description: A C program that prints a line to the standard error.
  *
- * Return: Always 1 (Success)
+ * Return: Always 1 (failure)
 */
 int main(void)
 {
-	write(2,
-	"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59)
+	printf"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }	
