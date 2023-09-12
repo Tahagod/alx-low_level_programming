@@ -6,7 +6,10 @@
 /**
  * main - main function
  *
- */
+ * Description: true or false validation
+ *
+ * Return: 0 (success)
+*/
 
 int main(void)
 {
