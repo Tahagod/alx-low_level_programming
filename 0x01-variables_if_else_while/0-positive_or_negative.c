@@ -1,28 +1,26 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
 #include <stdio.h>
-/*betty style doc for function main hoes there */
+#include <time.h>
+#include <stdlib.h>
+
 /**
- * main - main function
+ * main - entery point
  *
- * Description: true or false validation
+ * Description: false or true validation
  *
- * Return: 0 (success)
+ * Return: 0
 */
 
 int main(void)
 {
-        int n;
+	int n;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        if (n > 0)
-                printf("%d is positive", n);
-        else if (n == 0)
-                printf("%d is zero", n);
-        else
-                printf("%d is negative", n);
-	printf("\n");
-        return (0);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%i is positive\n", n);
+	else if (n == 0)
+		printf("int is zero\n, n");
+	else
+		printf("int is negative\n, n");
+	return (0);
 }
