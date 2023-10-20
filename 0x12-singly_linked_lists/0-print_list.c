@@ -1,6 +1,22 @@
 #include "lists.h"
 
 /**
+ * _strlen - returns the length of a string
+ * @s: the string whose length to be checked
+ *
+ * Return: length of the string
+ */
+int _strlen(char *s)
+{
+	int i = 0;
+
+	if (!s)
+		return (0);
+	while (*s++)
+		i++;
+	return (i);
+}
+/**
  * print_list - prints a linked lists
  * @h: pointer to the first node
  *
